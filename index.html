@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Codex</title>
+    <!--Bootstrap and custom style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <h2 class="h2 text-center bg-warning p-2">Company Codex</h2>
+        <h2 class="h2 text-center">Register Yourself</h2>
+        <form>
+            <hr>
+            <div class="container">
+                <div class="row d-flex mt-5 mb-5 justify-content-around">
+                    <div class="mr-5">
+                        <label for="firstName" class="d-block">First Name</label>
+                        <input id="firstName" type="text" name="firstName" placeholder="First Name..." onkeyup="inputValues()">
+                    </div>
+
+                    <div class="ml-5">
+                        <label for="lastName" class="d-block">Last Name</label>
+                        <input id="lastName" type="text" name="lastName" placeholder="Last Name..." onkeyup="inputValues()">
+                    </div>
+                </div>
+
+                <div class="row d-flex mt-5 mb-5 justify-content-around">
+                    <div class="mr-5">
+                        <label for="company" class="d-block">Company</label>
+                        <input id="company" type="text" name="company" placeholder="Company..." onkeyup="inputValues()">
+                    </div>
+
+                    <div class="ml-5">
+                        <label for="branch" class="d-block">Branch</label>
+                        <input id="branch" type="text" name="branch" placeholder="Branch..." onkeyup="inputValues()">
+                    </div>
+                </div>
+            </div>
+            <hr class="w-50">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Work Email</h1>
+                    <input id="emailField" type="email" class="text-center w-25 rounded" placeholder=".@-.com" disabled>
+                </div>
+            </div>
+            <hr>
+        </form>
+    </section>
+
+    <!--Jquery-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!--Bootstrap-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--Custom JS-->
+    <script src="js/tsveticreate.js"></script>
+</body>
+</html>
